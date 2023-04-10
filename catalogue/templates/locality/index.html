@@ -1,0 +1,27 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Liste des localités{% endblock %}
+
+{% block content %}
+    <h1>{{ title }}</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Locality</th>
+                <th>Postalcode</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for locality in localities %}
+            <tr>
+                <td>{{ locality.locality }}</td>
+                <td>{{ locality.postalcode }}</td>
+            </tr>
+        {% empty %}
+	    <tr>
+	         <td colspan="2">Sorry, no locality in the database.</td>
+	    </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

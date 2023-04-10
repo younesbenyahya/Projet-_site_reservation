@@ -1,0 +1,42 @@
+[
+    {
+      "model": "catalogue.locality",
+      "pk": 1,
+      "fields": {
+        "locality": "Anderlecht",
+        "postalcode": "1070"
+      }
+    },
+    {
+      "model": "catalogue.locality",
+      "pk": 2,
+      "fields": {
+        "locality": "Etterbeek",
+        "postalcode": "1040"
+      }
+    },
+    {
+      "model": "catalogue.locality",
+      "pk": 3,
+      "fields": {
+        "locality": "Molenbeek-Saint-Jean",
+        "postalcode": "1080"
+      }
+    },
+    {
+      "model": "catalogue.locality",
+      "pk": 4,
+      "fields": {
+        "locality": "Schaerbeek",
+        "postalcode": "1030"
+      }
+    },
+    {
+      "model": "catalogue.locality",
+      "pk": 5,
+      "fields": {
+        "locality": "Uccle",
+        "postalcode": "1180"
+      }
+    }
+  ]

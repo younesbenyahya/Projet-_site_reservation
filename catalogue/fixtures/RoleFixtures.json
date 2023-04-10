@@ -1,0 +1,24 @@
+[
+    {
+      "model": "catalogue.role",
+      "pk": 1,
+      "fields": {
+        "role": "role1"
+      }
+    },
+    {
+      "model": "catalogue.role",
+      "pk": 2,
+      "fields": {
+        "role": "role2"
+      }
+    },
+    {
+      "model": "catalogue.role",
+      "pk": 3,
+      "fields": {
+        "role": "role3"
+      }
+    }
+  ]
+  
