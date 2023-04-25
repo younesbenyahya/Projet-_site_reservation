@@ -6,7 +6,7 @@ from catalogue.models import Role
 # Create your views here.
 def index(request):
 	roles = Role.objects.all()
-       title = 'Liste des roles'
+	title = 'liste des roles'
 	
 	return render(request, 'role/index.html', {
 		'roles':roles,

@@ -6,7 +6,7 @@ from catalogue.models import Locality
 # Create your views here.
 def index(request):
 	localities = Locality.objects.all()
-       title = 'Liste des localités'
+	title = 'liste des localités'
 	
 	return render(request, 'localities/index.html', {
 		'localities':localities,
